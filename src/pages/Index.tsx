@@ -3,9 +3,9 @@ import { Button } from "@/components/ui/button";
 import { GraduationCap, Users, Heart, ArrowRight, BookOpen, Home, Sparkles, Quote } from "lucide-react";
 import { Layout } from "@/components/layout/Layout";
 import heroImage from "@/assets/rishabshettyofficial_1768970461589.jpg";
-import childrenLearning from "@/assets/ನನ್ನ ಕುಟುಂಬದೊಂದಿಗೆ ನಮ್ಮೂರಿನ ಕೆರಾಡಿ ಸರ್ಕಾರಿ ಕನ್ನಡ ಮಾಧ್ಯಮ (_1.jpg";
-import communityImage from "@/assets/ನನ್ನ ಕುಟುಂಬದೊಂದಿಗೆ ನಮ್ಮೂರಿನ ಕೆರಾಡಿ ಸರ್ಕಾರಿ ಕನ್ನಡ ಮಾಧ್ಯಮ (_2.jpg";
-import keradiSchool from "@/assets/ನನ್ನ ಕುಟುಂಬದೊಂದಿಗೆ ನಮ್ಮೂರಿನ ಕೆರಾಡಿ ಸರ್ಕಾರಿ ಕನ್ನಡ ಮಾಧ್ಯಮ (_3.jpg";
+import childrenLearning from "@/assets/rishabshettyofficial_1768970462205.jpg";
+import communityImage from "@/assets/rishabshettyofficial_1768970462394.jpg";
+import keradiSchool from "@/assets/rishabshettyofficial_1768970464184.jpg";
 
 const impactStats = [
   { number: "1", label: "School Adopted", icon: Home },

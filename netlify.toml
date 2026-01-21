@@ -1,10 +1,9 @@
-[[headers]]
-  for = "*.js"
-  [headers.values]
-    Content-Type = "application/javascript"
+[build]
+  command = "npm run build"
+  publish = "dist"
 
 [[headers]]
-  for = "*.tsx"
+  for = "*.js"
   [headers.values]
     Content-Type = "application/javascript"
 

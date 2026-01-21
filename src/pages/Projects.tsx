@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Layout } from "@/components/layout/Layout";
 import { MapPin, Users, GraduationCap, ArrowRight, CheckCircle, Star } from "lucide-react";
 import keradiSchool from "@/assets/rishabshettyofficial_1768970464184.jpg";
-import childrenLearning from "@/assets/ನನ್ನ ಕುಟುಂಬದೊಂದಿಗೆ ನಮ್ಮೂರಿನ ಕೆರಾಡಿ ಸರ್ಕಾರಿ ಕನ್ನಡ ಮಾಧ್ಯಮ (JP.jpg";
+import childrenLearning from "@/assets/rishabshettyofficial_1768970462205.jpg";
 
 const projectHighlights = [
   "Complete infrastructure renovation and modernization",

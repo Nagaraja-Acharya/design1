@@ -28,19 +28,58 @@ const impactMetrics = [
 const Projects = () => {
   return (
     <Layout>
-      <section className="section-padding bg-cream">
-        <div className="container-wide mx-auto">
-          <div className="max-w-3xl mx-auto text-center">
-            <span className="inline-block text-sm font-semibold text-primary uppercase tracking-wider mb-4">
-              Our Projects
-            </span>
-            <h1 className="font-serif text-4xl sm:text-5xl font-bold text-foreground mb-6">
-              Transforming Schools, Changing Lives
-            </h1>
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              Every project we undertake is a step towards our vision of 
-              quality Kannada medium education for all children.
-            </p>
+      <section className="relative min-h-[70vh] bg-gradient-to-br from-primary/10 via-accent/5 to-secondary/10 overflow-hidden">
+        <div className="absolute inset-0">
+          <img 
+            src={keradiSchool} 
+            alt="Keradi Government School" 
+            className="w-full h-full object-cover opacity-20"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-background/80 to-background/40"></div>
+        </div>
+        <div className="relative container-wide mx-auto px-4 py-24 lg:py-32">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div className="max-w-2xl">
+              <span className="inline-block text-sm font-semibold text-primary uppercase tracking-wider mb-4">
+                Our Projects
+              </span>
+              <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground mb-6">
+                Transforming Schools, Changing Lives
+              </h1>
+              <p className="text-lg text-muted-foreground leading-relaxed mb-8">
+                Every project we undertake is a step towards our vision of 
+                quality Kannada medium education for all children. From infrastructure 
+                development to digital learning initiatives, we're building the future 
+                of education in Karnataka.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <Button variant="hero" size="lg" asChild>
+                  <Link to="/get-involved">
+                    Support Our Mission
+                    <ArrowRight className="w-5 h-5" />
+                  </Link>
+                </Button>
+                <Button variant="hero-outline" size="lg" asChild>
+                  <Link to="/contact">Learn More</Link>
+                </Button>
+              </div>
+            </div>
+            <div className="relative">
+              <div className="grid grid-cols-2 gap-4">
+                <img 
+                  src={childrenLearning} 
+                  alt="Students at Keradi School" 
+                  className="rounded-2xl shadow-lg w-full h-48 object-cover"
+                />
+                <img 
+                  src={studentSupportImage} 
+                  alt="Student Support" 
+                  className="rounded-2xl shadow-lg w-full h-48 object-cover object-[center_30%] mt-8"
+                />
+              </div>
+              <div className="absolute -bottom-4 -left-4 w-24 h-24 bg-primary/10 rounded-full blur-xl"></div>
+              <div className="absolute -top-4 -right-4 w-32 h-32 bg-secondary/10 rounded-full blur-xl"></div>
+            </div>
           </div>
         </div>
       </section>

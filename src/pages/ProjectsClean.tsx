@@ -4,10 +4,6 @@ import { Layout } from "@/components/layout/Layout";
 import { MapPin, Users, GraduationCap, ArrowRight, CheckCircle, Star, Building2, Droplets, UserCheck, Laptop, Calendar } from "lucide-react";
 import keradiSchool from "@/assets/rishabshettyofficial_1768970464184.jpg";
 import childrenLearning from "@/assets/rishabshettyofficial_1768970462205.jpg";
-import schoolVan from "@/assets/school van.jpg";
-import solarSystem from "@/assets/solar_sys.png";
-import smartClassTV from "@/assets/smart_class_tv.jpg";
-import schoolNameBoard from "@/assets/School name board.jpg";
 
 const projectHighlights = [
   "Complete infrastructure renovation and modernization",
@@ -143,165 +139,202 @@ const Projects = () => {
           </div>
 
           <div className="mb-16">
-            <div className="flex items-center gap-3 mb-12">
+            <div className="flex items-center gap-3 mb-8">
               <Calendar className="w-6 h-6 text-primary" />
               <h3 className="font-serif text-2xl font-bold text-foreground">
                 Contributions - Academic Year 2024-25
               </h3>
             </div>
             
-            <div className="space-y-12">
-              <div className="grid lg:grid-cols-2 gap-12 items-center">
-                <div>
-                  <div className="flex items-center gap-3 mb-6">
-                    <div className="w-12 h-12 rounded-xl bg-light-terracotta flex items-center justify-center">
-                      <Droplets className="w-6 h-6 text-primary" />
-                    </div>
-                    <h4 className="font-serif text-xl font-semibold text-foreground">
-                      School Facilities & Utilities
-                    </h4>
-                  </div>
-                  <ul className="space-y-3 ml-15">
-                    <li className="text-muted-foreground flex items-start gap-3">
-                      <span className="w-2 h-2 rounded-full bg-primary shrink-0 mt-2"></span>
-                      Two school vehicles with maintenance support
-                    </li>
-                    <li className="text-muted-foreground flex items-start gap-3">
-                      <span className="w-2 h-2 rounded-full bg-primary shrink-0 mt-2"></span>
-                      Installation of one water purifier
-                    </li>
-                    <li className="text-muted-foreground flex items-start gap-3">
-                      <span className="w-2 h-2 rounded-full bg-primary shrink-0 mt-2"></span>
-                      Solar power system installation
-                    </li>
-                  </ul>
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+              <div className="card-warm p-6 hover-lift">
+                <div className="w-12 h-12 rounded-xl bg-light-terracotta flex items-center justify-center mb-4">
+                  <Building2 className="w-6 h-6 text-primary" />
                 </div>
-                <div className="grid grid-cols-2 gap-4">
-                  <img src={schoolVan} alt="School Van" className="w-full h-40 object-cover rounded-xl shadow-lg" />
-                  <img src={solarSystem} alt="Solar System" className="w-full h-40 object-cover rounded-xl shadow-lg" />
-                </div>
+                <h4 className="font-serif text-lg font-semibold text-foreground mb-4">
+                  Infrastructure Development
+                </h4>
+                <ul className="space-y-2">
+                  <li className="text-sm text-muted-foreground flex items-start gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-primary shrink-0 mt-2"></span>
+                    Levelling of the school playground
+                  </li>
+                  <li className="text-sm text-muted-foreground flex items-start gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-primary shrink-0 mt-2"></span>
+                    Painting of school buildings
+                  </li>
+                  <li className="text-sm text-muted-foreground flex items-start gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-primary shrink-0 mt-2"></span>
+                    Tile installation in two classrooms
+                  </li>
+                  <li className="text-sm text-muted-foreground flex items-start gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-primary shrink-0 mt-2"></span>
+                    Construction of one toilet facility
+                  </li>
+                </ul>
               </div>
 
-              <div className="grid lg:grid-cols-2 gap-12 items-center">
-                <div className="lg:order-2">
-                  <div className="flex items-center gap-3 mb-6">
-                    <div className="w-12 h-12 rounded-xl bg-light-terracotta flex items-center justify-center">
-                      <Users className="w-6 h-6 text-primary" />
-                    </div>
-                    <h4 className="font-serif text-xl font-semibold text-foreground">
-                      Student Support
-                    </h4>
-                  </div>
-                  <ul className="space-y-3 ml-15">
-                    <li className="text-muted-foreground flex items-start gap-3">
-                      <span className="w-2 h-2 rounded-full bg-primary shrink-0 mt-2"></span>
-                      ID cards provided to students
-                    </li>
-                    <li className="text-muted-foreground flex items-start gap-3">
-                      <span className="w-2 h-2 rounded-full bg-primary shrink-0 mt-2"></span>
-                      Uniforms for LKG and UKG students
-                    </li>
-                    <li className="text-muted-foreground flex items-start gap-3">
-                      <span className="w-2 h-2 rounded-full bg-primary shrink-0 mt-2"></span>
-                      Classroom boards for all grades
-                    </li>
-                    <li className="text-muted-foreground flex items-start gap-3">
-                      <span className="w-2 h-2 rounded-full bg-primary shrink-0 mt-2"></span>
-                      Two school name boards
-                    </li>
-                  </ul>
+              <div className="card-warm p-6 hover-lift">
+                <div className="w-12 h-12 rounded-xl bg-light-terracotta flex items-center justify-center mb-4">
+                  <Droplets className="w-6 h-6 text-primary" />
                 </div>
-                <div className="lg:order-1">
-                  <img src={schoolNameBoard} alt="School Name Board" className="w-full h-64 object-cover rounded-xl shadow-lg" />
-                </div>
+                <h4 className="font-serif text-lg font-semibold text-foreground mb-4">
+                  School Facilities & Utilities
+                </h4>
+                <ul className="space-y-2">
+                  <li className="text-sm text-muted-foreground flex items-start gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-primary shrink-0 mt-2"></span>
+                    Two school vehicles with maintenance support
+                  </li>
+                  <li className="text-sm text-muted-foreground flex items-start gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-primary shrink-0 mt-2"></span>
+                    Installation of one water purifier
+                  </li>
+                  <li className="text-sm text-muted-foreground flex items-start gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-primary shrink-0 mt-2"></span>
+                    Solar power system installation
+                  </li>
+                </ul>
               </div>
 
-              <div className="grid lg:grid-cols-2 gap-12 items-center">
-                <div>
-                  <div className="flex items-center gap-3 mb-6">
-                    <div className="w-12 h-12 rounded-xl bg-light-terracotta flex items-center justify-center">
-                      <Building2 className="w-6 h-6 text-primary" />
-                    </div>
-                    <h4 className="font-serif text-xl font-semibold text-foreground">
-                      Infrastructure Development
-                    </h4>
-                  </div>
-                  <ul className="space-y-3 ml-15">
-                    <li className="text-muted-foreground flex items-start gap-3">
-                      <span className="w-2 h-2 rounded-full bg-primary shrink-0 mt-2"></span>
-                      Levelling of the school playground
-                    </li>
-                    <li className="text-muted-foreground flex items-start gap-3">
-                      <span className="w-2 h-2 rounded-full bg-primary shrink-0 mt-2"></span>
-                      Painting of school buildings
-                    </li>
-                    <li className="text-muted-foreground flex items-start gap-3">
-                      <span className="w-2 h-2 rounded-full bg-primary shrink-0 mt-2"></span>
-                      Tile installation in two classrooms
-                    </li>
-                    <li className="text-muted-foreground flex items-start gap-3">
-                      <span className="w-2 h-2 rounded-full bg-primary shrink-0 mt-2"></span>
-                      Construction of one toilet facility
-                    </li>
-                  </ul>
+              <div className="card-warm p-6 hover-lift">
+                <div className="w-12 h-12 rounded-xl bg-light-terracotta flex items-center justify-center mb-4">
+                  <Users className="w-6 h-6 text-primary" />
                 </div>
-                <div>
-                  <div className="bg-light-terracotta/20 rounded-xl p-8 text-center">
-                    <Building2 className="w-16 h-16 text-primary mx-auto mb-4" />
-                    <p className="text-muted-foreground">Infrastructure improvements creating a better learning environment</p>
-                  </div>
+                <h4 className="font-serif text-lg font-semibold text-foreground mb-4">
+                  Student Support
+                </h4>
+                <ul className="space-y-2">
+                  <li className="text-sm text-muted-foreground flex items-start gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-primary shrink-0 mt-2"></span>
+                    ID cards provided to students
+                  </li>
+                  <li className="text-sm text-muted-foreground flex items-start gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-primary shrink-0 mt-2"></span>
+                    Uniforms for LKG and UKG students
+                  </li>
+                  <li className="text-sm text-muted-foreground flex items-start gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-primary shrink-0 mt-2"></span>
+                    Classroom boards for all grades
+                  </li>
+                  <li className="text-sm text-muted-foreground flex items-start gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-primary shrink-0 mt-2"></span>
+                    Two school name boards
+                  </li>
+                </ul>
+              </div>
+
+              <div className="card-warm p-6 hover-lift">
+                <div className="w-12 h-12 rounded-xl bg-light-terracotta flex items-center justify-center mb-4">
+                  <UserCheck className="w-6 h-6 text-primary" />
                 </div>
+                <h4 className="font-serif text-lg font-semibold text-foreground mb-4">
+                  Human Resources
+                </h4>
+                <ul className="space-y-2">
+                  <li className="text-sm text-muted-foreground flex items-start gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-primary shrink-0 mt-2"></span>
+                    Appointment of honorary teachers
+                  </li>
+                  <li className="text-sm text-muted-foreground flex items-start gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-primary shrink-0 mt-2"></span>
+                    Appointment of one support staff (Aya)
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
 
           <div className="mb-16">
-            <div className="flex items-center gap-3 mb-12">
+            <div className="flex items-center gap-3 mb-8">
               <Calendar className="w-6 h-6 text-secondary" />
               <h3 className="font-serif text-2xl font-bold text-foreground">
                 Contributions - Academic Year 2025-26
               </h3>
             </div>
             
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
-              <div>
-                <div className="flex items-center gap-3 mb-6">
-                  <div className="w-12 h-12 rounded-xl bg-light-sage flex items-center justify-center">
-                    <Laptop className="w-6 h-6 text-secondary" />
-                  </div>
-                  <h4 className="font-serif text-xl font-semibold text-foreground">
-                    Digital Learning & Technology
-                  </h4>
+            <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
+              <div className="card-warm p-6 hover-lift">
+                <div className="w-12 h-12 rounded-xl bg-light-sage flex items-center justify-center mb-4">
+                  <Droplets className="w-6 h-6 text-secondary" />
                 </div>
-                <ul className="space-y-3 ml-15">
-                  <li className="text-muted-foreground flex items-start gap-3">
-                    <span className="w-2 h-2 rounded-full bg-secondary shrink-0 mt-2"></span>
-                    Smart Class setup worth Rs.1,00,000
-                  </li>
-                  <li className="text-muted-foreground flex items-start gap-3">
-                    <span className="w-2 h-2 rounded-full bg-secondary shrink-0 mt-2"></span>
-                    15 sets of student uniforms
-                  </li>
-                  <li className="text-muted-foreground flex items-start gap-3">
-                    <span className="w-2 h-2 rounded-full bg-secondary shrink-0 mt-2"></span>
-                    Computer support and television repair
-                  </li>
-                  <li className="text-muted-foreground flex items-start gap-3">
-                    <span className="w-2 h-2 rounded-full bg-secondary shrink-0 mt-2"></span>
-                    Educational tour expenses - Rs.25,000
-                  </li>
-                  <li className="text-muted-foreground flex items-start gap-3">
-                    <span className="w-2 h-2 rounded-full bg-secondary shrink-0 mt-2"></span>
+                <h4 className="font-serif text-lg font-semibold text-foreground mb-4">
+                  Water & Maintenance
+                </h4>
+                <ul className="space-y-2">
+                  <li className="text-sm text-muted-foreground flex items-start gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-secondary shrink-0 mt-2"></span>
                     Borewell pump installation
-                  </li>
-                  <li className="text-muted-foreground flex items-start gap-3">
-                    <span className="w-2 h-2 rounded-full bg-secondary shrink-0 mt-2"></span>
-                    Special contribution by Yuva Foundation
                   </li>
                 </ul>
               </div>
-              <div>
-                <img src={smartClassTV} alt="Smart Class TV" className="w-full h-64 object-cover rounded-xl shadow-lg" />
+
+              <div className="card-warm p-6 hover-lift">
+                <div className="w-12 h-12 rounded-xl bg-light-sage flex items-center justify-center mb-4">
+                  <Laptop className="w-6 h-6 text-secondary" />
+                </div>
+                <h4 className="font-serif text-lg font-semibold text-foreground mb-4">
+                  Education & Technology
+                </h4>
+                <ul className="space-y-2">
+                  <li className="text-sm text-muted-foreground flex items-start gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-secondary shrink-0 mt-2"></span>
+                    15 sets of student uniforms
+                  </li>
+                  <li className="text-sm text-muted-foreground flex items-start gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-secondary shrink-0 mt-2"></span>
+                    Computer support
+                  </li>
+                  <li className="text-sm text-muted-foreground flex items-start gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-secondary shrink-0 mt-2"></span>
+                    Television repair
+                  </li>
+                </ul>
+              </div>
+
+              <div className="card-warm p-6 hover-lift">
+                <div className="w-12 h-12 rounded-xl bg-light-sage flex items-center justify-center mb-4">
+                  <Laptop className="w-6 h-6 text-secondary" />
+                </div>
+                <h4 className="font-serif text-lg font-semibold text-foreground mb-4">
+                  Digital Learning
+                </h4>
+                <ul className="space-y-2">
+                  <li className="text-sm text-muted-foreground flex items-start gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-secondary shrink-0 mt-2"></span>
+                    Smart Class setup worth Rs.1,00,000
+                  </li>
+                </ul>
+              </div>
+
+              <div className="card-warm p-6 hover-lift">
+                <div className="w-12 h-12 rounded-xl bg-light-sage flex items-center justify-center mb-4">
+                  <Users className="w-6 h-6 text-secondary" />
+                </div>
+                <h4 className="font-serif text-lg font-semibold text-foreground mb-4">
+                  Experiential Learning
+                </h4>
+                <ul className="space-y-2">
+                  <li className="text-sm text-muted-foreground flex items-start gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-secondary shrink-0 mt-2"></span>
+                    Educational tour expenses - Rs.25,000
+                  </li>
+                </ul>
+              </div>
+
+              <div className="card-warm p-6 hover-lift">
+                <div className="w-12 h-12 rounded-xl bg-light-sage flex items-center justify-center mb-4">
+                  <UserCheck className="w-6 h-6 text-secondary" />
+                </div>
+                <h4 className="font-serif text-lg font-semibold text-foreground mb-4">
+                  Collaboration
+                </h4>
+                <ul className="space-y-2">
+                  <li className="text-sm text-muted-foreground flex items-start gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-secondary shrink-0 mt-2"></span>
+                    Special contribution by Yuva Foundation
+                  </li>
+                </ul>
               </div>
             </div>
           </div>

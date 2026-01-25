@@ -7,6 +7,7 @@ import childrenLearning from "@/assets/rishabshettyofficial_1768970462205.jpg";
 import schoolVan from "@/assets/school van.jpg";
 import solarSystem from "@/assets/solar_sys.png";
 import smartClassTV from "@/assets/smart_class_tv.jpg";
+import studentSupportImage from "@/assets/Student Support.jpg";
 import schoolNameBoard from "@/assets/School name board.jpg";
 
 const projectHighlights = [
@@ -212,7 +213,7 @@ const Projects = () => {
                   </ul>
                 </div>
                 <div className="lg:order-1">
-                  <img src={schoolNameBoard} alt="School Name Board" className="w-full h-64 object-cover rounded-xl shadow-lg" />
+                  <img src={studentSupportImage} alt="Student Support at Keradi School" className="w-full h-64 object-cover object-[center_30%] rounded-xl shadow-lg" />
                 </div>
               </div>
 

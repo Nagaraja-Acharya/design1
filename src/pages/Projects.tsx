@@ -6,7 +6,10 @@ import keradiSchool from "@/assets/rishabshettyofficial_1768970464184.jpg";
 import childrenLearning from "@/assets/rishabshettyofficial_1768970462205.jpg";
 import schoolVan from "@/assets/school van.jpg";
 import solarSystem from "@/assets/solar_sys.png";
+import facilitiesImg1 from "@/assets/RSF/DSC08329 (1).jpg";
+import facilitiesImg2 from "@/assets/RSF/DSC08362 (1).jpg";
 import smartClassTV from "@/assets/smart_class_tv.jpg";
+import digitalLearning from "@/assets/RSF/SAMKAM20260124_2959.00_00_17_10.Still021.jpg";
 import studentSupportImage from "@/assets/Student Support.jpg";
 import schoolNameBoard from "@/assets/School name board.jpg";
 
@@ -28,121 +31,63 @@ const impactMetrics = [
 const Projects = () => {
   return (
     <Layout>
-      <section className="relative min-h-[70vh] bg-gradient-to-br from-primary/10 via-accent/5 to-secondary/10 overflow-hidden">
-        <div className="absolute inset-0">
-          <img 
-            src={keradiSchool} 
-            alt="Keradi Government School" 
-            className="w-full h-full object-cover opacity-20"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-background/80 to-background/40"></div>
-        </div>
-        <div className="relative container-wide mx-auto px-4 py-24 lg:py-32">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="max-w-2xl">
-              <span className="inline-block text-sm font-semibold text-primary uppercase tracking-wider mb-4">
-                Our Projects
-              </span>
-              <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground mb-6">
-                Transforming Schools, Changing Lives
-              </h1>
-              <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-                Every project we undertake is a step towards our vision of 
-                quality Kannada medium education for all children. From infrastructure 
-                development to digital learning initiatives, we're building the future 
-                of education in Karnataka.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Button variant="hero" size="lg" asChild>
-                  <Link to="/get-involved">
-                    Support Our Mission
-                    <ArrowRight className="w-5 h-5" />
-                  </Link>
-                </Button>
-                <Button variant="hero-outline" size="lg" asChild>
-                  <Link to="/contact">Learn More</Link>
-                </Button>
-              </div>
-            </div>
-            <div className="relative">
-              <div className="grid grid-cols-2 gap-4">
-                <img 
-                  src={childrenLearning} 
-                  alt="Students at Keradi School" 
-                  className="rounded-2xl shadow-lg w-full h-48 object-cover"
-                />
-                <img 
-                  src={studentSupportImage} 
-                  alt="Student Support" 
-                  className="rounded-2xl shadow-lg w-full h-48 object-cover object-[center_30%] mt-8"
-                />
-              </div>
-              <div className="absolute -bottom-4 -left-4 w-24 h-24 bg-primary/10 rounded-full blur-xl"></div>
-              <div className="absolute -top-4 -right-4 w-32 h-32 bg-secondary/10 rounded-full blur-xl"></div>
-            </div>
-          </div>
+      <section className="relative h-[70vh] min-h-[500px] flex items-center justify-center overflow-hidden">
+        <img src={childrenLearning} alt="Children Learning" className="absolute inset-0 w-full h-full object-cover" />
+        <div className="absolute inset-0 bg-gradient-to-b from-deep-brown/80 via-deep-brown/70 to-deep-brown/90"></div>
+        <div className="relative z-10 container-wide mx-auto text-center px-4">
+          <span className="inline-block text-sm font-semibold text-cream uppercase tracking-wider mb-4">
+            Our Projects
+          </span>
+          <h1 className="font-serif text-4xl sm:text-6xl font-bold text-cream mb-6">
+            Transforming Schools, Changing Lives
+          </h1>
+          <p className="text-lg sm:text-xl text-cream/90 leading-relaxed max-w-2xl mx-auto">
+            Every project we undertake is a step towards our vision of quality Kannada medium education for all children.
+          </p>
         </div>
       </section>
 
       <section className="section-padding bg-background">
         <div className="container-wide mx-auto">
           <div className="mb-16">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-light-gold border border-accent/30 mb-6">
-              <Star className="w-4 h-4 text-accent-foreground" />
-              <span className="text-sm font-medium text-accent-foreground">Flagship Project</span>
-            </div>
-            
-            <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-start">
-              <div>
-                <h2 className="font-serif text-3xl sm:text-4xl font-bold text-foreground mb-4">
+            <div className="relative rounded-3xl overflow-hidden shadow-elevated">
+              <img src={keradiSchool} alt="Keradi School" className="w-full h-[600px] object-cover" />
+              <div className="absolute inset-0 bg-gradient-to-t from-deep-brown via-deep-brown/60 to-transparent"></div>
+              
+              <div className="absolute bottom-0 left-0 right-0 p-8 lg:p-12 text-white">
+                <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent/90 border border-accent mb-6">
+                  <Star className="w-4 h-4 text-white" />
+                  <span className="text-sm font-medium text-white">Flagship Project</span>
+                </div>
+                
+                <h2 className="font-serif text-3xl sm:text-5xl font-bold text-cream mb-4">
                   Government Higher Primary School, Keradi
                 </h2>
-                <div className="flex items-center gap-2 text-muted-foreground mb-6">
-                  <MapPin className="w-5 h-5 text-primary" />
+                <div className="flex items-center gap-2 text-cream/90 mb-6">
+                  <MapPin className="w-5 h-5" />
                   <span>Keradi, Kundapura Taluk, Udupi District, Karnataka</span>
                 </div>
                 
-                <p className="text-muted-foreground leading-relaxed mb-6">
-                  The Government Higher Primary School in Keradi holds a special place in our 
-                  mission. Located in Rishab Shetty's hometown, this school represents the 
-                  foundation's commitment to grassroots change. By adopting this school, we're 
-                  not just improving infrastructure — we're creating a model for what 
-                  government schools can become.
+                <p className="text-cream/90 text-lg leading-relaxed max-w-3xl">
+                  Located in Rishab Shetty's hometown, this school represents our commitment to grassroots change — creating a model for what government schools can become.
                 </p>
-
-                <div className="bg-light-terracotta/50 rounded-xl p-6 mb-8 border border-primary/10">
-                  <p className="text-foreground font-medium italic">
-                    "In a powerful demonstration of belief in government education, Rishab 
-                    Shetty has enrolled his own children in the Keradi school. This personal 
-                    commitment speaks louder than any words about our faith in the potential 
-                    of Kannada medium education."
-                  </p>
-                </div>
-
-                <h3 className="font-serif text-xl font-semibold text-foreground mb-4">
-                  Project Highlights
-                </h3>
-                <div className="grid sm:grid-cols-2 gap-3 mb-8">
-                  {projectHighlights.map((highlight, index) => (
-                    <div key={index} className="flex items-start gap-3">
-                      <CheckCircle className="w-5 h-5 text-secondary shrink-0 mt-0.5" />
-                      <span className="text-sm text-muted-foreground">{highlight}</span>
-                    </div>
-                  ))}
-                </div>
               </div>
+            </div>
 
-              <div className="space-y-6">
-                <img
-                  src={keradiSchool}
-                  alt="Rishab Shetty with family at Keradi Government School"
-                  className="rounded-2xl shadow-elevated w-full"
-                />
-                <img
-                  src={childrenLearning}
-                  alt="Rishab Shetty with family at Keradi Government School"
-                  className="rounded-2xl shadow-card w-full"
-                />
+            <div className="grid lg:grid-cols-2 gap-8 mt-12">
+              <div className="bg-light-terracotta/30 rounded-2xl p-8 border border-primary/20">
+                <p className="text-foreground font-medium italic text-lg leading-relaxed">
+                  "In a powerful demonstration of belief in government education, Rishab Shetty has enrolled his own children in the Keradi school. This personal commitment speaks louder than any words."
+                </p>
+              </div>
+              
+              <div className="grid grid-cols-2 gap-4">
+                {projectHighlights.slice(0, 4).map((highlight, index) => (
+                  <div key={index} className="flex items-start gap-2">
+                    <CheckCircle className="w-5 h-5 text-secondary shrink-0 mt-0.5" />
+                    <span className="text-sm text-muted-foreground">{highlight}</span>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
@@ -217,8 +162,8 @@ const Projects = () => {
                   </ul>
                 </div>
                 <div className="grid grid-cols-2 gap-4">
-                  <img src={schoolVan} alt="School Van" className="w-full h-40 object-cover rounded-xl shadow-lg" />
-                  <img src={solarSystem} alt="Solar System" className="w-full h-40 object-cover rounded-xl shadow-lg" />
+                  <img src={facilitiesImg1} alt="School Facilities" className="w-full h-40 object-cover rounded-xl shadow-lg" />
+                  <img src={facilitiesImg2} alt="School Utilities" className="w-full h-40 object-cover rounded-xl shadow-lg" />
                 </div>
               </div>
 
@@ -341,7 +286,7 @@ const Projects = () => {
                 </ul>
               </div>
               <div>
-                <img src={smartClassTV} alt="Smart Class TV" className="w-full h-64 object-cover rounded-xl shadow-lg" />
+                <img src={digitalLearning} alt="Digital Learning" className="w-full h-64 object-cover rounded-xl shadow-lg" />
               </div>
             </div>
           </div>

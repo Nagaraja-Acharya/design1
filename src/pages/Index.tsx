@@ -253,11 +253,11 @@ const Index = () => {
       <section className="section-padding bg-background">
         <div className="container-wide mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-            <div className="relative">
+            <div className="relative overflow-hidden rounded-2xl shadow-elevated h-full min-h-[400px]">
               <img
                 src={communityImage}
                 alt="Rishab Shetty with family at Keradi Government School"
-                className="rounded-2xl shadow-elevated w-full"
+                className="w-full h-full object-cover scale-150"
               />
             </div>
             <div>

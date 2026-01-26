@@ -149,15 +149,19 @@ const Projects = () => {
                   <ul className="space-y-3 ml-15">
                     <li className="text-muted-foreground flex items-start gap-3">
                       <span className="w-2 h-2 rounded-full bg-primary shrink-0 mt-2"></span>
-                      Two school vehicles with maintenance support
+                      Two school vehicles with drivers and maintenance support
                     </li>
                     <li className="text-muted-foreground flex items-start gap-3">
                       <span className="w-2 h-2 rounded-full bg-primary shrink-0 mt-2"></span>
-                      Installation of one water purifier
+                      Safe drinking water unit installation
                     </li>
                     <li className="text-muted-foreground flex items-start gap-3">
                       <span className="w-2 h-2 rounded-full bg-primary shrink-0 mt-2"></span>
-                      Solar power system installation
+                      Solar power system worth ₹4 lakh
+                    </li>
+                    <li className="text-muted-foreground flex items-start gap-3">
+                      <span className="w-2 h-2 rounded-full bg-primary shrink-0 mt-2"></span>
+                      Borewell construction with pump installation
                     </li>
                   </ul>
                 </div>
@@ -180,11 +184,11 @@ const Projects = () => {
                   <ul className="space-y-3 ml-15">
                     <li className="text-muted-foreground flex items-start gap-3">
                       <span className="w-2 h-2 rounded-full bg-primary shrink-0 mt-2"></span>
-                      ID cards provided to students
+                      ID cards distributed to students
                     </li>
                     <li className="text-muted-foreground flex items-start gap-3">
                       <span className="w-2 h-2 rounded-full bg-primary shrink-0 mt-2"></span>
-                      Uniforms for LKG and UKG students
+                      Uniforms for LKG and UKG students (2 years)
                     </li>
                     <li className="text-muted-foreground flex items-start gap-3">
                       <span className="w-2 h-2 rounded-full bg-primary shrink-0 mt-2"></span>
@@ -192,7 +196,11 @@ const Projects = () => {
                     </li>
                     <li className="text-muted-foreground flex items-start gap-3">
                       <span className="w-2 h-2 rounded-full bg-primary shrink-0 mt-2"></span>
-                      Two school name boards
+                      Two school name boards donated
+                    </li>
+                    <li className="text-muted-foreground flex items-start gap-3">
+                      <span className="w-2 h-2 rounded-full bg-primary shrink-0 mt-2"></span>
+                      Laboratory kit worth ₹18,000
                     </li>
                   </ul>
                 </div>
@@ -214,11 +222,11 @@ const Projects = () => {
                   <ul className="space-y-3 ml-15">
                     <li className="text-muted-foreground flex items-start gap-3">
                       <span className="w-2 h-2 rounded-full bg-primary shrink-0 mt-2"></span>
-                      Levelling of the school playground
+                      Playground leveling with steps construction
                     </li>
                     <li className="text-muted-foreground flex items-start gap-3">
                       <span className="w-2 h-2 rounded-full bg-primary shrink-0 mt-2"></span>
-                      Painting of school buildings
+                      Complete painting of school buildings
                     </li>
                     <li className="text-muted-foreground flex items-start gap-3">
                       <span className="w-2 h-2 rounded-full bg-primary shrink-0 mt-2"></span>
@@ -226,7 +234,7 @@ const Projects = () => {
                     </li>
                     <li className="text-muted-foreground flex items-start gap-3">
                       <span className="w-2 h-2 rounded-full bg-primary shrink-0 mt-2"></span>
-                      Construction of one toilet facility
+                      Well-equipped toilet construction
                     </li>
                   </ul>
                 </div>
@@ -234,6 +242,35 @@ const Projects = () => {
                   <div className="bg-light-terracotta/20 rounded-xl p-8 text-center">
                     <Building2 className="w-16 h-16 text-primary mx-auto mb-4" />
                     <p className="text-muted-foreground">Infrastructure improvements creating a better learning environment</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="grid lg:grid-cols-2 gap-12 items-center">
+                <div className="lg:order-2">
+                  <div className="flex items-center gap-3 mb-6">
+                    <div className="w-12 h-12 rounded-xl bg-light-terracotta flex items-center justify-center">
+                      <UserCheck className="w-6 h-6 text-primary" />
+                    </div>
+                    <h4 className="font-serif text-xl font-semibold text-foreground">
+                      Staff & Support
+                    </h4>
+                  </div>
+                  <ul className="space-y-3 ml-15">
+                    <li className="text-muted-foreground flex items-start gap-3">
+                      <span className="w-2 h-2 rounded-full bg-primary shrink-0 mt-2"></span>
+                      Five guest teachers appointed
+                    </li>
+                    <li className="text-muted-foreground flex items-start gap-3">
+                      <span className="w-2 h-2 rounded-full bg-primary shrink-0 mt-2"></span>
+                      One helper (Aya) for school cleanliness
+                    </li>
+                  </ul>
+                </div>
+                <div className="lg:order-1">
+                  <div className="bg-light-terracotta/20 rounded-xl p-8 text-center">
+                    <UserCheck className="w-16 h-16 text-primary mx-auto mb-4" />
+                    <p className="text-muted-foreground">Dedicated staff ensuring quality education and clean environment</p>
                   </div>
                 </div>
               </div>
@@ -261,7 +298,19 @@ const Projects = () => {
                 <ul className="space-y-3 ml-15">
                   <li className="text-muted-foreground flex items-start gap-3">
                     <span className="w-2 h-2 rounded-full bg-secondary shrink-0 mt-2"></span>
-                    Smart Class setup worth Rs.1,00,000
+                    Smart Class with TV panel worth over ₹1 lakh
+                  </li>
+                  <li className="text-muted-foreground flex items-start gap-3">
+                    <span className="w-2 h-2 rounded-full bg-secondary shrink-0 mt-2"></span>
+                    Technology-based education enabling modern learning
+                  </li>
+                  <li className="text-muted-foreground flex items-start gap-3">
+                    <span className="w-2 h-2 rounded-full bg-secondary shrink-0 mt-2"></span>
+                    Reduced teacher workload through digital tools
+                  </li>
+                  <li className="text-muted-foreground flex items-start gap-3">
+                    <span className="w-2 h-2 rounded-full bg-secondary shrink-0 mt-2"></span>
+                    Computer repairs and maintenance
                   </li>
                   <li className="text-muted-foreground flex items-start gap-3">
                     <span className="w-2 h-2 rounded-full bg-secondary shrink-0 mt-2"></span>
@@ -269,15 +318,7 @@ const Projects = () => {
                   </li>
                   <li className="text-muted-foreground flex items-start gap-3">
                     <span className="w-2 h-2 rounded-full bg-secondary shrink-0 mt-2"></span>
-                    Computer support and television repair
-                  </li>
-                  <li className="text-muted-foreground flex items-start gap-3">
-                    <span className="w-2 h-2 rounded-full bg-secondary shrink-0 mt-2"></span>
-                    Educational tour expenses - Rs.25,000
-                  </li>
-                  <li className="text-muted-foreground flex items-start gap-3">
-                    <span className="w-2 h-2 rounded-full bg-secondary shrink-0 mt-2"></span>
-                    Borewell pump installation
+                    Educational trip funding - ₹25,000
                   </li>
                   <li className="text-muted-foreground flex items-start gap-3">
                     <span className="w-2 h-2 rounded-full bg-secondary shrink-0 mt-2"></span>
@@ -304,7 +345,7 @@ const Projects = () => {
             <div className="grid sm:grid-cols-3 gap-6">
               <div className="text-center">
                 <div className="font-serif text-4xl font-bold text-primary mb-2">
-                  25+
+                  30+
                 </div>
                 <div className="text-muted-foreground text-sm font-medium">
                   Educational & Infrastructure Initiatives

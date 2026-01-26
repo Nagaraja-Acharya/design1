@@ -78,24 +78,23 @@ const About = () => {
                 The Beginning
               </span>
               <h2 className="font-serif text-3xl sm:text-4xl font-bold text-foreground mb-6">
-                From Reel to Real: A Mission Born of Conviction
+                Where Cinema Sparked a Revolution
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                The seeds of the Rishab Shetty Foundation were sown long before its 
-                official announcement. Through his acclaimed film "Sarkari Hi. Pra. Shaale, 
-                Kasaragodu," Rishab Shetty highlighted the struggles and triumphs of 
-                Kannada medium government schools, touching hearts across Karnataka and beyond.
+                It began with a story on screen. "Sarkari Hi. Pra. Shaale, Kasaragodu" wasn't 
+                just a film—it was a mirror held up to society, reflecting the forgotten dreams 
+                of Kannada medium government schools and the children who walked through their doors.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                On his birthday in July 2023, Pragathi Shetty announced the foundation, 
-                transforming the message of the film into tangible action. What started 
-                as a cinematic narrative became a movement for educational equity and 
-                cultural preservation.
+                The film resonated deeply, stirring something profound in audiences across Karnataka. 
+                But for Rishab Shetty, the story couldn't end when the credits rolled. On his birthday 
+                in July 2023, Pragathi Shetty made an announcement that would transform inspiration into 
+                action—the birth of the Rishab Shetty Foundation.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Today, the foundation stands as a testament to what's possible when 
-                artistry meets purpose, and when individuals choose to invest in the 
-                futures of their communities.
+                What began as a cinematic vision has evolved into a living, breathing movement. Today, 
+                the foundation stands as proof that art can ignite change, that stories can build schools, 
+                and that one person's commitment can reshape the future of an entire community.
               </p>
             </div>
             <div className="relative">
@@ -254,29 +253,33 @@ const About = () => {
       {/* CTA */}
       <section className="section-padding bg-background">
         <div className="container-narrow mx-auto">
-          <div className="card-warm p-8 lg:p-12 text-center">
-            <img
-              src={communityImage}
-              alt="Rishab Shetty with family at Keradi Government School"
-              className="w-full h-98 object-cover rounded-xl mb-8"
-            />
-            <h2 className="font-serif text-2xl sm:text-3xl font-bold text-foreground mb-4">
-              Be Part of Our Story
-            </h2>
-            <p className="text-muted-foreground mb-8 max-w-lg mx-auto">
-              Whether you want to volunteer, donate, or partner with us, there are 
-              many ways to contribute to our mission.
-            </p>
-            <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <Button variant="hero" size="lg" asChild>
-                <Link to="/get-involved">
-                  Get Involved
-                  <ArrowRight className="w-4 h-4" />
-                </Link>
-              </Button>
-              <Button variant="outline" size="lg" asChild>
-                <Link to="/contact">Contact Us</Link>
-              </Button>
+          <div className="card-warm p-0 overflow-hidden text-center">
+            <div className="w-full h-[500px] overflow-hidden">
+              <img
+                src={communityImage}
+                alt="Rishab Shetty with family at Keradi Government School"
+                className="w-full h-full object-cover object-center"
+              />
+            </div>
+            <div className="p-8 lg:p-12">
+              <h2 className="font-serif text-2xl sm:text-3xl font-bold text-foreground mb-4">
+                Be Part of Our Story
+              </h2>
+              <p className="text-muted-foreground mb-8 max-w-lg mx-auto">
+                Whether you want to volunteer, donate, or partner with us, there are 
+                many ways to contribute to our mission.
+              </p>
+              <div className="flex flex-col sm:flex-row justify-center gap-4">
+                <Button variant="hero" size="lg" asChild>
+                  <Link to="/get-involved">
+                    Get Involved
+                    <ArrowRight className="w-4 h-4" />
+                  </Link>
+                </Button>
+                <Button variant="outline" size="lg" asChild>
+                  <Link to="/contact">Contact Us</Link>
+                </Button>
+              </div>
             </div>
           </div>
         </div>

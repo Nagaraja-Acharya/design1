@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Layout } from "@/components/layout/Layout";
 import { Heart, Users, Handshake, Gift, ArrowRight, CheckCircle } from "lucide-react";
-import communityImage from "@/assets/rishabshettyofficial_1768970462205.jpg";
+import communityImage from "@/assets/ನನ್ನ ಕುಟುಂಬದೊಂದಿಗೆ ನಮ್ಮೂರಿನ ಕೆರಾಡಿ ಸರ್ಕಾರಿ ಕನ್ನಡ ಮಾಧ್ಯಮ (_3.jpg";
 
 const involvementOptions = [
   {

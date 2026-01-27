@@ -4,7 +4,7 @@ import { GraduationCap, Users, Heart, ArrowRight, BookOpen, Home, Sparkles, Quot
 import { Layout } from "@/components/layout/Layout";
 import heroImage from "@/assets/rishabshettyofficial_1768970461589.jpg";
 import childrenLearning from "@/assets/rishabshettyofficial_1768970462205.jpg";
-import communityImage from "@/assets/rishabshettyofficial_1768970462394.jpg";
+import communityImage from "@/assets/ನನ್ನ ಕುಟುಂಬದೊಂದಿಗೆ ನಮ್ಮೂರಿನ ಕೆರಾಡಿ ಸರ್ಕಾರಿ ಕನ್ನಡ ಮಾಧ್ಯಮ (_4.jpg";
 import keradiSchool from "@/assets/rishabshettyofficial_1768970464184.jpg";
 
 const impactStats = [
@@ -257,7 +257,7 @@ const Index = () => {
               <img
                 src={communityImage}
                 alt="Rishab Shetty with family at Keradi Government School"
-                className="w-full h-full object-cover scale-150"
+                className="w-full h-full object-cover object-[center_30%]"
               />
             </div>
             <div>

@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Layout } from "@/components/layout/Layout";
 import { GraduationCap, Heart, Users, ArrowRight, BookOpen, Utensils, Palette, Leaf } from "lucide-react";
 import childrenLearning from "@/assets/ನನ್ನ ಕುಟುಂಬದೊಂದಿಗೆ ನಮ್ಮೂರಿನ ಕೆರಾಡಿ ಸರ್ಕಾರಿ ಕನ್ನಡ ಮಾಧ್ಯಮ (_8.jpg";
+import childrenWelfare from "@/assets/RSF/SAMKAM20260124_2959.00_00_17_02.Still008.jpg";
 import communityImage from "@/assets/ನನ್ನ ಕುಟುಂಬದೊಂದಿಗೆ ನಮ್ಮೂರಿನ ಕೆರಾಡಿ ಸರ್ಕಾರಿ ಕನ್ನಡ ಮಾಧ್ಯಮ (_9.jpg";
 
 const focusAreas = [
@@ -121,7 +122,7 @@ const FocusAreas = () => {
               </div>
               <div className={index % 2 === 0 ? "order-2" : "order-2 lg:order-1"}>
                 <img
-                  src={index === 2 ? communityImage : childrenLearning}
+                  src={index === 0 ? childrenLearning : index === 1 ? childrenWelfare : communityImage}
                   alt="Rishab Shetty with family at Keradi Government School"
                   className="rounded-2xl shadow-elevated w-full"
                 />

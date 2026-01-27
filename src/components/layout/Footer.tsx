@@ -106,8 +106,8 @@ export function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-accent shrink-0 mt-0.5" />
                 <span className="text-cream/70 text-sm">
-                  Keradi, Kundapura Taluk,<br />
-                  Udupi District, Karnataka
+                  No 290/2, 2nd floor, Lakshmi Arcade,<br />
+                  Siddaiah road, Bangalore 560027
                 </span>
               </li>
               <li className="flex items-center gap-3">

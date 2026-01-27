@@ -7,7 +7,7 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Address",
-    details: ["Keradi, Kundapura Taluk,", "Udupi District, Karnataka 576224"],
+    details: ["No 290/2, 2nd floor, Lakshmi Arcade,", "Siddaiah road, Bangalore 560027"],
   },
   {
     icon: Mail,
@@ -190,33 +190,6 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Map Section */}
-      <section className="section-padding bg-cream">
-        <div className="container-wide mx-auto">
-          <div className="text-center mb-8">
-            <h2 className="font-serif text-2xl font-bold text-foreground mb-2">
-              Our Location
-            </h2>
-            <p className="text-muted-foreground">
-              Visit us at our office in Keradi, Karnataka
-            </p>
-          </div>
-          <div className="aspect-[21/9] rounded-2xl overflow-hidden bg-muted">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.5!2d74.8!3d13.7!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDQyJzAwLjAiTiA3NMKwNDgnMDAuMCJF!5e0!3m2!1sen!2sin!4v1234567890"
-              width="100%"
-              height="100%"
-              style={{ border: 0 }}
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              title="Foundation Location"
-              className="w-full h-full min-h-[300px]"
-            />
           </div>
         </div>
       </section>

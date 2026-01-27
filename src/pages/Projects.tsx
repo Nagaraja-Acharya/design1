@@ -12,6 +12,8 @@ import smartClassTV from "@/assets/smart_class_tv.jpg";
 import digitalLearning from "@/assets/RSF/SAMKAM20260124_2959.00_00_17_10.Still021.jpg";
 import studentSupportImage from "@/assets/Student Support.jpg";
 import schoolNameBoard from "@/assets/School name board.jpg";
+import infrastructureImg from "@/assets/Infrastructure Development.jpg";
+import staffSupportImg from "@/assets/Staff & Support.jpg";
 
 const projectHighlights = [
   "Complete infrastructure renovation and modernization",
@@ -239,10 +241,7 @@ const Projects = () => {
                   </ul>
                 </div>
                 <div>
-                  <div className="bg-light-terracotta/20 rounded-xl p-8 text-center">
-                    <Building2 className="w-16 h-16 text-primary mx-auto mb-4" />
-                    <p className="text-muted-foreground">Infrastructure improvements creating a better learning environment</p>
-                  </div>
+                  <img src={infrastructureImg} alt="Infrastructure Development" className="w-full h-64 object-cover rounded-xl shadow-lg" />
                 </div>
               </div>
 
@@ -268,10 +267,7 @@ const Projects = () => {
                   </ul>
                 </div>
                 <div className="lg:order-1">
-                  <div className="bg-light-terracotta/20 rounded-xl p-8 text-center">
-                    <UserCheck className="w-16 h-16 text-primary mx-auto mb-4" />
-                    <p className="text-muted-foreground">Dedicated staff ensuring quality education and clean environment</p>
-                  </div>
+                  <img src={staffSupportImg} alt="Staff & Support" className="w-full h-64 object-cover rounded-xl shadow-lg" />
                 </div>
               </div>
             </div>

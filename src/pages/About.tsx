@@ -41,6 +41,21 @@ const timeline = [
     description: "Rishab Shetty enrolls his own children in the Keradi government school, demonstrating unwavering belief in Kannada medium education.",
   },
   {
+    year: "2024-2025",
+    title: "Smart Classrooms & Infrastructure",
+    description: "Smart classes established at Keradi, Bellala, and Murutu schools with TV panels worth over ₹1 lakh each, enabling modern technology-based education. Solar power systems worth ₹4 lakh installed, along with laboratory kits, safe drinking water units, and well-equipped toilets.",
+  },
+  {
+    year: "2024-2025",
+    title: "Student Support & Scholarships",
+    description: "Scholarships provided to 25+ PU students. School vehicles with drivers provided for students from distant areas. ID cards distributed, uniforms provided to LKG and UKG students for two consecutive years, and ₹25,000 allocated for educational trips.",
+  },
+  {
+    year: "2024-2025",
+    title: "Teaching & Facilities Enhancement",
+    description: "Five guest teachers appointed to strengthen education quality. Helper (Aya) hired for school cleanliness. Classroom boards provided, school name boards donated, playground leveled with steps constructed, and entire school building painted.",
+  },
+  {
     year: "Ongoing",
     title: "Growing Impact",
     description: "Continuing to expand our reach, improve infrastructure, and support more students across Karnataka.",

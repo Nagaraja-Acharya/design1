@@ -135,13 +135,17 @@ const News = () => {
           </h2>
           
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {otherNews.map((item) => (
+            {otherNews.map((item, index) => (
               <article key={item.id} className="card-warm overflow-hidden hover-lift group">
                 <div className="aspect-[4/3] overflow-hidden">
                   <img
                     src={item.image}
                     alt={item.title}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    className={`w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ${
+                      index === 0 ? 'object-[center_3%] scale-150' : 
+                      index === 2 ? 'object-[center_20%]' : 
+                      index === 3 ? 'object-[center_3%] scale-150' : ''
+                    }`}
                   />
                 </div>
                 <div className="p-4">

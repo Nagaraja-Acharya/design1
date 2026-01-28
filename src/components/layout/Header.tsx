@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, GraduationCap } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import logo from "@/assets/Full logo merged.png";
 
 const navLinks = [
   { name: "Home", path: "/" },
@@ -24,18 +25,8 @@ export function Header() {
       <div className="container-wide mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-primary flex items-center justify-center shadow-soft group-hover:shadow-card transition-shadow duration-300">
-              <GraduationCap className="w-5 h-5 md:w-6 md:h-6 text-primary-foreground" />
-            </div>
-            <div className="flex flex-col">
-              <span className="font-serif text-lg md:text-xl font-semibold text-foreground leading-tight">
-                Rishab Shetty
-              </span>
-              <span className="text-xs md:text-sm text-muted-foreground -mt-0.5">
-                Foundation
-              </span>
-            </div>
+          <Link to="/" className="flex items-center group">
+            <img src={logo} alt="Rishab Shetty Foundation" className="h-12 md:h-16 w-auto rounded-lg" />
           </Link>
 
           {/* Desktop Navigation */}

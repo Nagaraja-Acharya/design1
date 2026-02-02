@@ -318,6 +318,10 @@ const Projects = () => {
                   </li>
                   <li className="text-muted-foreground flex items-start gap-3">
                     <span className="w-2 h-2 rounded-full bg-secondary shrink-0 mt-2"></span>
+                    Scholarship program - ₹2 lakh
+                  </li>
+                  <li className="text-muted-foreground flex items-start gap-3">
+                    <span className="w-2 h-2 rounded-full bg-secondary shrink-0 mt-2"></span>
                     Special contribution by Yuva Foundation
                   </li>
                 </ul>

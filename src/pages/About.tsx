@@ -48,7 +48,7 @@ const timeline = [
   {
     year: "2024-2025",
     title: "Student Support & Scholarships",
-    description: "Scholarships provided to 25+ PU students. School vehicles with drivers provided for students from distant areas. ID cards distributed, uniforms provided to LKG and UKG students for two consecutive years, and ₹25,000 allocated for educational trips.",
+    description: "Scholarship program worth ₹2 lakh provided to 25+ PU students. School vehicles with drivers provided for students from distant areas. ID cards distributed, uniforms provided to LKG and UKG students for two consecutive years, and ₹25,000 allocated for educational trips.",
   },
   {
     year: "2024-2025",

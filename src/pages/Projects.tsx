@@ -204,6 +204,10 @@ const Projects = () => {
                       <span className="w-2 h-2 rounded-full bg-primary shrink-0 mt-2"></span>
                       Laboratory kit worth ₹18,000
                     </li>
+                    <li className="text-muted-foreground flex items-start gap-3">
+                      <span className="w-2 h-2 rounded-full bg-primary shrink-0 mt-2"></span>
+                      Scholarship program - ₹2 lakh
+                    </li>
                   </ul>
                 </div>
                 <div className="lg:order-1">

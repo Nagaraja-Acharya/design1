@@ -12,12 +12,14 @@ const focusAreas = [
     icon: GraduationCap,
     title: "Kannada Medium Education",
     tagline: "Preserving Language, Building Futures",
-    description: "We believe that learning in one's mother tongue is fundamental to a child's cognitive and emotional development. Our education initiatives focus on strengthening Kannada medium government schools to provide quality education.",
+    description: "We believe that learning in one's mother tongue is fundamental to a child's cognitive and emotional development. Our education initiatives focus on strengthening Kannada-medium government schools to provide quality education, preserving language identity, and building futures through inclusive and accessible learning.",
     initiatives: [
       { icon: BookOpen, text: "Infrastructure improvement and modernization" },
       { icon: GraduationCap, text: "Teacher training and development programs" },
       { icon: BookOpen, text: "Learning material and resource provision" },
       { icon: GraduationCap, text: "Digital literacy and technology integration" },
+      { icon: BookOpen, text: "Classroom enhancement and student-friendly learning environments" },
+      { icon: GraduationCap, text: "Promotion of Kannada language and cultural learning initiatives" },
     ],
     bgColor: "bg-light-terracotta",
     iconColor: "text-primary",
@@ -27,12 +29,14 @@ const focusAreas = [
     icon: Heart,
     title: "Children Welfare",
     tagline: "Nurturing Every Child's Potential",
-    description: "A healthy child is a learning child. We address the holistic needs of students, ensuring they have the physical, emotional, and social support required to thrive in school and beyond.",
+    description: "A healthy child is a learning child. We address the holistic needs of students, ensuring they have the physical, emotional, and social support required to thrive in school and beyond, nurturing every child's potential.",
     initiatives: [
       { icon: Utensils, text: "Nutritious mid-day meal programs" },
       { icon: Heart, text: "Health checkups and medical support" },
       { icon: Palette, text: "Extracurricular and creative activities" },
       { icon: Heart, text: "Counseling and emotional well-being support" },
+      { icon: Utensils, text: "Student scholarship assistance" },
+      { icon: Palette, text: "Educational trips and experiential learning opportunities" },
     ],
     bgColor: "bg-light-sage",
     iconColor: "text-secondary",
@@ -42,12 +46,14 @@ const focusAreas = [
     icon: Users,
     title: "Community Well-being",
     tagline: "Stronger Communities, Brighter Futures",
-    description: "Education doesn't happen in isolation. We work with families and communities to create an ecosystem that values and supports learning, cultural preservation, and collective growth.",
+    description: "Education doesn't happen in isolation. We work with families and communities to create an ecosystem that values and supports learning, cultural preservation, and collective growth — building stronger communities for brighter futures.",
     initiatives: [
       { icon: Users, text: "Parent engagement and awareness programs" },
       { icon: Leaf, text: "Community development initiatives" },
       { icon: Palette, text: "Cultural preservation and celebration" },
       { icon: Users, text: "Skill development for parents and youth" },
+      { icon: Leaf, text: "Rural education awareness campaigns" },
+      { icon: Palette, text: "Kannada heritage and cultural promotion activities" },
     ],
     bgColor: "bg-light-gold",
     iconColor: "text-accent-foreground",
@@ -68,8 +74,7 @@ const FocusAreas = () => {
               Three Pillars of Change
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Our work spans three interconnected areas that together create 
-              lasting, meaningful impact in the lives of children and communities.
+              Our work spans three interconnected focus areas that together create meaningful and long-term impact in the lives of children, schools, and communities across Karnataka.
             </p>
           </div>
         </div>

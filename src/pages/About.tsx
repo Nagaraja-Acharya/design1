@@ -76,9 +76,7 @@ const About = () => {
               Our Story of Hope & Education
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Born from a deep love for Kannada culture and an unwavering belief in 
-              the power of education, the Rishab Shetty Foundation is committed to 
-              transforming lives, one school at a time.
+              We are committed to protecting Kannada-medium government schools, nurturing young learners, and building stronger communities through education, language preservation, and cultural pride. Rooted in the belief that strong public schools create stronger futures, the Rishab Shetty Foundation works towards improving educational opportunities for children studying in Kannada-medium government schools across Karnataka.
             </p>
           </div>
         </div>
@@ -93,23 +91,16 @@ const About = () => {
                 The Beginning
               </span>
               <h2 className="font-serif text-3xl sm:text-4xl font-bold text-foreground mb-6">
-                Where Cinema Sparked a Revolution
+                Where Cinema Sparked a Movement
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                It began with a story on screen. "Sarkari Hi. Pra. Shaale, Kasaragodu" wasn't 
-                just a film—it was a mirror held up to society, reflecting the forgotten dreams 
-                of Kannada medium government schools and the children who walked through their doors.
+                It began with a story on screen. Sarkari Hi. Pra. Shaale, Kasaragodu was more than just a critically acclaimed Kannada film — it reflected the real struggles, emotional realities, and silent hopes surrounding Kannada-medium government schools and the children studying within them.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                The film resonated deeply, stirring something profound in audiences across Karnataka. 
-                But for Rishab Shetty, the story couldn't end when the credits rolled. On his birthday 
-                in July 2023, Pragathi Shetty made an announcement that would transform inspiration into 
-                action—the birth of the Rishab Shetty Foundation.
+                The film sparked meaningful conversations across Karnataka about public education, language identity, and the importance of preserving Kannada-medium learning environments. For actor and filmmaker Rishab Shetty, the journey did not end with cinema. In July 2023, on the occasion of his birthday, Pragathi Shetty announced the launch of the Rishab Shetty Foundation, transforming the inspiration behind the film into a meaningful social initiative focused on education and community development.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                What began as a cinematic vision has evolved into a living, breathing movement. Today, 
-                the foundation stands as proof that art can ignite change, that stories can build schools, 
-                and that one person's commitment can reshape the future of an entire community.
+                What started as a cinematic story has now evolved into a purpose-driven movement dedicated to strengthening Kannada-medium government schools, supporting children's education, and creating opportunities for communities across Karnataka. Today, the foundation stands as a reminder that storytelling can do more than entertain — it can inspire action, rebuild systems, and create lasting social impact beyond the screen.
               </p>
             </div>
             <div className="relative">
@@ -133,9 +124,7 @@ const About = () => {
               </div>
               <h3 className="font-serif text-2xl font-bold text-cream mb-4">Our Vision</h3>
               <p className="text-cream/80 leading-relaxed">
-                A Karnataka where every child has access to quality education in their 
-                mother tongue, where government schools are centers of excellence, and 
-                where communities thrive through knowledge and cultural pride.
+                To build a Karnataka where every child receives quality education in their mother tongue, Kannada-medium government schools become centers of excellence, and communities grow through knowledge, cultural pride, equal opportunity, and educational progress.
               </p>
             </div>
             <div className="card-warm bg-cream/10 border-cream/20 p-8 lg:p-10">
@@ -144,9 +133,7 @@ const About = () => {
               </div>
               <h3 className="font-serif text-2xl font-bold text-cream mb-4">Our Mission</h3>
               <p className="text-cream/80 leading-relaxed">
-                To revitalize Kannada medium government schools by improving infrastructure, 
-                enhancing teaching quality, supporting student welfare, and fostering 
-                community engagement — ensuring no child is left behind.
+                To strengthen Kannada-medium government schools by improving educational infrastructure, enhancing teaching quality, supporting student welfare, encouraging community engagement, and promoting inclusive education — ensuring equal opportunities for every child regardless of social or economic background.
               </p>
             </div>
           </div>

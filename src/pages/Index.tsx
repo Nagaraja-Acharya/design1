@@ -66,9 +66,7 @@ const Index = () => {
             </h1>
 
             <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed mb-8 animate-fade-up stagger-2">
-              Founded with a vision to protect Kannada medium government schools, 
-              nurture our children, and build stronger communities through education 
-              and cultural preservation.
+              We are committed to protecting Kannada-medium government schools, nurturing young learners, and building stronger communities through education, language preservation, and cultural pride.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 animate-fade-up stagger-3">
@@ -125,15 +123,10 @@ const Index = () => {
                 Saving Government Schools, One Village at a Time
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                The Rishab Shetty Foundation was announced in July 2023 by Pragathi Shetty 
-                on the occasion of actor and filmmaker Rishab Shetty's birthday. Born from 
-                a deep-rooted belief in the power of mother-tongue education, we are committed 
-                to revitalizing Kannada medium government schools across Karnataka.
+                The Rishab Shetty Foundation was established in July 2023 with a mission to strengthen Kannada-medium government schools across Karnataka. Founded by Pragathi Shetty on the occasion of Rishab Shetty's birthday, the foundation was built on a deep belief in the transformative power of mother-tongue education and accessible public schooling.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-8">
-                Inspired by the values portrayed in the acclaimed film "Sarkari Hi. Pra. Shaale," 
-                we believe that every child deserves quality education in their own language, 
-                in their own community.
+                Inspired by the values portrayed in Sarkari Hi. Pra. Shaale, Kasaragodu, the foundation works towards improving educational opportunities for children studying in local government schools. We believe every child deserves access to quality education in their own language, within their own community, and in an environment that encourages learning, creativity, and confidence.
               </p>
               <Button variant="outline" size="lg" asChild>
                 <Link to="/about">
@@ -220,15 +213,11 @@ const Index = () => {
                 Keradi Government School
               </h2>
               <p className="text-cream/80 leading-relaxed mb-6">
-                Our journey began where it matters most — home. The Government Higher Primary 
-                School in Keradi, Rishab Shetty's hometown, became our first adopted school. 
-                This is more than a project; it's a promise to the next generation.
+                Our journey began where it matters most — home. The Government Higher Primary School in Keradi, Karnataka, the hometown of Rishab Shetty, became the first school adopted by the foundation. This flagship initiative represents more than infrastructure development. It is a long-term commitment towards creating a stronger educational environment for rural children studying in Kannada-medium government schools.
               </p>
               <div className="bg-cream/10 rounded-xl p-6 mb-8 border border-cream/20">
                 <p className="text-cream/90 italic text-lg">
-                  "Rishab Shetty has enrolled his own children in the Keradi school, 
-                  demonstrating his unwavering belief in government education and 
-                  Kannada medium schooling."
+                  "By supporting one school at a time with sustainable development initiatives, we aim to create replicable models that can inspire broader improvements in government education across Karnataka."
                 </p>
               </div>
               <Button variant="accent" size="lg" asChild>

@@ -79,7 +79,7 @@ const Projects = () => {
             <div className="grid lg:grid-cols-2 gap-8 mt-12">
               <div className="bg-light-terracotta/30 rounded-2xl p-8 border border-primary/20">
                 <p className="text-foreground font-medium italic text-lg leading-relaxed">
-                  "In a powerful demonstration of belief in government education, Rishab Shetty has enrolled his own children in the Keradi school. This personal commitment speaks louder than any words."
+                  "The adoption of the Keradi school reflects the foundation's belief that meaningful change begins at the community level. By supporting one school at a time with sustainable development initiatives, we aim to create replicable models that can inspire broader improvements in government education across Karnataka."
                 </p>
               </div>
               
@@ -123,9 +123,7 @@ const Projects = () => {
               Building Better Learning Environments Through Action
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              The Rishab Shetty Foundation, registered in Bengaluru, has been actively working towards 
-              strengthening government schools through infrastructure development, student support, 
-              and educational enhancement initiatives.
+              The Bengaluru-registered Rishab Shetty Foundation has been actively working towards strengthening government schools through infrastructure development, student support initiatives, digital learning integration, and educational enhancement programs.
             </p>
           </div>
 
@@ -298,11 +296,11 @@ const Projects = () => {
                 <ul className="space-y-3 ml-15">
                   <li className="text-muted-foreground flex items-start gap-3">
                     <span className="w-2 h-2 rounded-full bg-secondary shrink-0 mt-2"></span>
-                    Smart Class with TV panel worth over ₹1 lakh
+                  Smart Class setup with TV panel worth over ₹1 lakh
                   </li>
                   <li className="text-muted-foreground flex items-start gap-3">
                     <span className="w-2 h-2 rounded-full bg-secondary shrink-0 mt-2"></span>
-                    Technology-based education enabling modern learning
+                  Technology tools for modern learning
                   </li>
                   <li className="text-muted-foreground flex items-start gap-3">
                     <span className="w-2 h-2 rounded-full bg-secondary shrink-0 mt-2"></span>
@@ -326,7 +324,7 @@ const Projects = () => {
                   </li>
                   <li className="text-muted-foreground flex items-start gap-3">
                     <span className="w-2 h-2 rounded-full bg-secondary shrink-0 mt-2"></span>
-                    Special contribution by Yuva Foundation
+                  Additional contribution by Yuva Foundation
                   </li>
                 </ul>
               </div>
@@ -382,14 +380,10 @@ const Projects = () => {
             From Reel to Real
           </h2>
           <p className="text-cream/80 text-lg leading-relaxed mb-8 max-w-2xl mx-auto">
-            The values portrayed in "Sarkari Hi. Pra. Shaale, Kasaragodu" — the 
-            importance of government schools, mother-tongue education, and community 
-            support — are not just cinematic themes. They are the guiding principles 
-            of our work at the Keradi school and beyond.
+            The themes portrayed in Sarkari Hi. Pra. Shaale, Kasaragodu — the importance of government schools, mother-tongue education, cultural identity, and community participation — continue to guide the work of the Rishab Shetty Foundation. The film highlighted the challenges faced by Kannada-medium government schools, including declining infrastructure, reduced enrollment, and lack of public attention. The foundation is working to change that narrative through practical educational initiatives, infrastructure support, teacher assistance, student welfare programs, and active community involvement.
           </p>
           <p className="text-cream/60 text-sm">
-            The film highlighted the struggles of Kannada medium schools. The foundation 
-            is working to change that narrative, one school at a time.
+            At the Keradi school and beyond, the foundation applies these values in real life by supporting schools with sustainable improvements and encouraging communities to actively participate in the educational growth of children.
           </p>
         </div>
       </section>
